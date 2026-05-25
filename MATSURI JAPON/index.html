@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matsuri Japan | Inicio</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="contenedor encabezado-superior">
+            <div class="logo-container">
+                <div class="logo">M</div>
+                <h1 class="titulo-sitio">MATSURI JAPAN</h1>
+            </div>
+
+            <div class="idioma">
+                <button id="btn-es" type="button">ES</button>
+                <span>|</span>
+                <button id="btn-en" type="button">EN</button>
+            </div>
+            <button class="menu-toggle" aria-label="Abrir menú">
+    ☰
+</button>
+        </div>
+
+        <nav class="menu" aria-label="Menú principal">
+            <a href="index.html" class="activo" aria-current="page" data-key="navInicio">Inicio</a>
+            <span>|</span>
+            <a href="estaciones.html" data-key="navEstaciones">Estaciones</a>
+            <span>|</span>
+            <a href="etiqueta.html" data-key="navEtiqueta">Etiqueta</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="banner-principal tarjeta">
+            <div class="slider-banner">
+
+    <img src="images/portada-primavera-japon.jpg"
+    class="slide active"
+    alt="Festival tradicional japonés">
+
+    <img src="images/geisha.jpg"
+    class="slide"
+    alt="Cultura japonesa tradicional">
+
+    <img src="images/japon-festival.jpg"
+    class="slide"
+    alt="Festival nocturno japonés">
+
+</div>
+            <div class="contenido-banner">
+                <h2 data-key="heroTitle">Descubre el alma de Japón</h2>
+                <a href="estaciones.html" class="boton" data-key="heroButton">Explora ahora</a>
+            </div>
+        </section>
+
+        <section class="estaciones-inicio">
+            <h2 class="oculto">Estaciones de Japón</h2>
+            <p data-key="estacionesTexto">Primavera | Verano | Otoño | Invierno</p>
+        </section>
+
+        <section class="intro-sitio contenedor tarjeta">
+            <h2 data-key="introTitulo">Bienvenidos a Matsuri Japan</h2>
+            <p data-key="introTexto1">
+                Matsuri Japan es un sitio web cultural inspirado en las tradiciones japonesas,
+                sus festivales más representativos y algunas normas básicas de protocolo y etiqueta.
+                Su propósito es presentar información de forma visual, organizada y fácil de recorrer.
+            </p>
+            <p data-key="introTexto2">
+                A través de sus páginas principales, el sitio reúne una portada de acceso,
+                una sección dedicada a celebraciones destacadas y otra enfocada en el respeto
+                por las costumbres culturales de Japón.
+            </p>
+        </section>
+    </main>
+    <footer class="footer">
+
+    <p>Matsuri Japan © 2026</p>
+
+    <p data-key="footerTexto">
+        Cultura, tradición y festivales japoneses
+    </p>
+
+</footer>
+
+    <script src="js/traductor.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/slider.js"></script>
+</body>
+</html>
