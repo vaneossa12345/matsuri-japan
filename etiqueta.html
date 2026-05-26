@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matsuri Japan | Etiqueta</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="contenedor encabezado-superior">
+            <div class="logo-container">
+                <div class="logo" aria-label="Logo de Matsuri Japan">M</div>
+                <h1 class="titulo-sitio">MATSURI JAPAN</h1>
+            </div>
+
+            <div class="idioma" aria-label="Selector de idioma">
+                <button id="btn-es" type="button">ES</button>
+                <span>|</span>
+                <button id="btn-en" type="button">EN</button>
+            </div>
+        </div>
+<button class="menu-toggle" aria-label="Abrir menú">
+    ☰
+</button>
+        <nav class="menu" aria-label="Menú principal">
+            <a href="index.html" data-key="navInicio">Inicio</a>
+            <span>|</span>
+            <a href="estaciones.html" data-key="navEstaciones">Estaciones</a>
+            <span>|</span>
+            <a href="etiqueta.html" class="activo" aria-current="page" data-key="navEtiqueta">Etiqueta</a>
+        </nav>
+    </header>
+
+    <main class="contenedor">
+        <section class="banner-etiqueta">
+            <img src="images/japon-festival.jpg" alt="Personas con vestimenta tradicional y máscaras en un festival japonés nocturno">
+            <div class="texto-etiqueta">
+                <h2 data-key="etiquetaTitulo">PROTOCOLO Y ETIQUETA CULTURAL</h2>
+            </div>
+        </section>
+
+        <section class="introduccion-etiqueta">
+            <p data-key="etiquetaIntro">
+                La etiqueta en Japón refleja respeto, armonía y consideración hacia los demás.
+                Conocer estas normas básicas ayuda a comprender mejor su cultura y a participar
+                de manera adecuada en sus espacios y celebraciones.
+            </p>
+        </section>
+
+        <section class="reglas-etiqueta">
+            <article class="regla">
+                <h3 data-key="regla1Titulo">Fotografía</h3>
+                <p data-key="regla1Texto">No tomar fotos sin permiso.</p>
+            </article>
+
+            <article class="regla">
+                <h3 data-key="regla2Titulo">El saludo</h3>
+                <p data-key="regla2Texto">Realizar una reverencia con respeto.</p>
+            </article>
+
+            <article class="regla">
+                <h3 data-key="regla3Titulo">Basura</h3>
+                <p data-key="regla3Texto">Usar los recipientes adecuados.</p>
+            </article>
+
+            <article class="regla">
+                <h3 data-key="regla4Titulo">Vestimenta</h3>
+                <p data-key="regla4Texto">Mantener una presentación apropiada.</p>
+            </article>
+
+            <article class="regla">
+                <h3 data-key="regla5Titulo">Comida</h3>
+                <p data-key="regla5Texto">Evitar comer caminando en lugares concurridos.</p>
+            </article>
+
+            <article class="regla">
+                <h3 data-key="regla6Titulo">Silencio</h3>
+                <p data-key="regla6Texto">Hablar en voz baja en espacios sagrados.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p data-key="footerEtiqueta">Matsuri Japan - Protocolo y normas básicas de respeto cultural en Japón.</p>
+    </footer>
+
+    <script src="js/traductor.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/animaciones.js"></script>
+</body>
+</html>
